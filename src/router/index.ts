@@ -1,11 +1,14 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import Page from '../pages/Page.vue';
 
+export const RouteName = Object.freeze({
+	TEST: 'test'
+})
 
 const routes: RouteRecordRaw[] = [
 	{
 		path: '/',
-		name: 'test',
+		name: RouteName.TEST,
 		props: true,
 		component: Page,
 	},
