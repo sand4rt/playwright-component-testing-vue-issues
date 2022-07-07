@@ -4,7 +4,7 @@ import Page from '../pages/Page.vue';
 
 const routes: RouteRecordRaw[] = [
 	{
-		path: '/test',
+		path: '/',
 		name: 'test',
 		props: true,
 		component: Page,

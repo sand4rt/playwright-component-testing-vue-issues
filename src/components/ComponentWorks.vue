@@ -3,5 +3,5 @@ const props = defineProps<{ test: string }>()
 </script>
 
 <template>
- <div>{{ props.test }}</div>
+ <a href="/">{{ props.test }}</a>
 </template>

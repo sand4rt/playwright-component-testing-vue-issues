@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+const props = defineProps<{ test: string }>()
+</script>
+
 <template>
- <div>test</div>
+ <RouterLink :to="{ name: 'test' }">{{ props.test }}</RouterLink>
 </template>

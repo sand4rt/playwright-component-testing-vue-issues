@@ -1,4 +1,4 @@
 <script lang="ts" setup>
-import SomeComponent from '../components/SomeComponent.vue';
+import ComponentWorksNot from '../components/ComponentWorksNot.vue';
 </script>
-<template><SomeComponent /></template>
+<template><ComponentWorksNot test="test" /></template>
