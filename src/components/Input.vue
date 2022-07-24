@@ -1,3 +1,3 @@
 <template>
- <input id="input" type="text" />
+ <input id="some-input-id" type="text" />
 </template>
