@@ -3,7 +3,7 @@ import Form from './Form.vue';
 // import Input from './Input.vue';
 
 
-test('renders a prop', async ({ mount }) => {
+test('renders a slot', async ({ mount }) => {
     const component = await mount(Form, {
         // components: {
         //     Input
